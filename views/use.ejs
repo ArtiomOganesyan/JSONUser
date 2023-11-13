@@ -1,0 +1,92 @@
+<section id="use" class="section">
+  <h2 data-translationKey="page.use.title"></h2>
+  <div class="use_container">
+    <p data-translationKey="page.use.run_code">
+      Run this code here, in a console or from any site:
+    </p>
+    <div class="code_block">
+      <pre>
+fetch('<%= host%>/api/users?amount=3')
+  .then(response => response.json())
+  .then(json => console.log(json))</pre
+      >
+    </div>
+    <div class="use_button">Run script</div>
+    <div class="code_block">
+      <pre id="fetch_result">{}</pre>
+    </div>
+  </div>
+  <div class="api_resource">
+    <h3 data-translationKey="page.use.api_resource">Api Resource</h3>
+    <div>
+      <ul class="ul_level_one">
+        <li>
+          <span data-translationKey="page.use.allowed_methods"
+            >Allowed Methods:</span
+          >
+          <span class="code">GET</span>
+        </li>
+        <li>
+          <p data-translationKey="page.use.send_query">
+            Send query to modify the response
+          </p>
+          <ul class="ul_level_two">
+            <li>
+              <span class="code">amount</span> -
+              <span data-translationKey="page.use.amount"
+                >Number of users to return</span
+              >
+            </li>
+            <li>
+              <span class="code">attributes</span> -
+              <span data-translationKey="page.use.attributes"
+                >Attributes to return specific attributes</span
+              >
+            </li>
+            <li>
+              <span class="code">document pattern</span> -
+              <span data-translationKey="page.use.document_pattern"
+                >Return specific document pattern</span
+              >
+            </li>
+            <li>
+              <span class="code">age</span> -
+              <span data-translationKey="page.use.age"
+                >Return specific age</span
+              >
+            </li>
+            <li>
+              <span class="code">lastname</span> -
+              <span data-translationKey="page.use.lastname"
+                >Return specific lastname</span
+              >
+            </li>
+            <li>
+              <span class="code">firstname</span> -
+              <span data-translationKey="page.use.firstname"
+                >Return specific firstname</span
+              >
+            </li>
+            <li>
+              <span class="code">ip</span> -
+              <span data-translationKey="page.use.ip">Return specific ip</span>
+            </li>
+            <li>
+              <span class="code">email</span> -
+              <span data-translationKey="page.use.email"
+                >Return specific email</span
+              >
+            </li>
+            <li>
+              <span class="code">birthDay</span> -
+              <span data-translationKey="page.use.birth_day"
+                >Return specific birthDay</span
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <a data-translationKey="to_top" class="to_top" href="#nav"><span>Up</span></a>
+</section>
